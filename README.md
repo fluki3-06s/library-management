@@ -1,8 +1,23 @@
-# React + Vite
+# ระบบจัดเก็บข้อมูลการยืมหนังสือ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### ทำขึ้นเพื่ออะไร?
 
-Currently, two official plugins are available:
+โปรเจกต์นี้เป็นระบบ CRUD ที่ออกแบบเพื่อช่วยบรรณารักษ์ในการจัดการหนังสือในห้องสมุดอย่างมีประสิทธิภาพ โดยมีฟังก์ชันการสร้าง อ่าน อัปเดต และลบข้อมูลหนังสือ และตรวจสอบประวัติการยืมหนังสือรวมถึงการอัพโหลดรูปภาพหน้าปกหนังสือผ่าน Multer ซึ่งทำให้การจัดการข้อมูลสะดวกขึ้น ช่วยลดเวลาการจัดการหนังสือและช่วยลดความผิดพลาดในการบันทึกข้อมูลประวัติการยืมและคืนหนังสือ
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## หมวดหมู่
+
+- **บันทึกการยืมหนังสือ**
+- **เพิ่มหนังสือ**
+- **แก้ไขข้อมูล**
+- **ตรวจสอบประวัติ**
+
+## รูปภาพประกอบ
+
+### บันทึกการยืมหนังสือ
+![บันทึกการยืมหนังสือ](https://img5.pic.in.th/file/secure-sv1/imagec39ba8a36dcd2883.png)
+
+### เพิ่มหนังสือ
+![เพิ่มหนังสือ](https://img5.pic.in.th/file/secure-sv1/image-1304e5cbdf5eecd96.png)
+
+### ตรวจสอบประวัติ
+![ตรวจสอบประวัติ](https://img5.pic.in.th/file/secure-sv1/image-27a2c10dc12eaf85c.png)
